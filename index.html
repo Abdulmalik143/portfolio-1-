@@ -1,15 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     
-<h2>aaa</h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 
-<p> ss </p>
+    <title>Abdulmalik Website</title>
+
+
+</head>
+
+<body>
+    
+   
+    <header>
+
+    <a class="logo">Abdulmalik Alhindi</a>
+    <nav id="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="Project.pdf">Portfolio</a>
+        <a href="mailto:s443010360@uqu.edu.sa">Contact</a>
+    </nav>
+
+    <div class="burger" id="burger">
+        <i class="fa fa-bars"></i>
+    </div>
+
+
+       
+
+
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm <span>Abdulmalik</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I am a graphic designer specializing in infographic designs. I am passionate about creating engaging and effective designs that help my clients achieve their goals. I have worked on various projects for training courses and large-scale tech conferences, and I am always keen on learning new skills and exploring new challenges.</p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/acreativitya"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/acreativity.a/profilecard/?igsh=MXA4eTl4aGUxbHpyZw=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+            <a href="CV.pdf" class="btn">Download my CV</a>
+        </div>
+    </section>
+
+        <script>
+            const burger = document.getElementById('burger');
+            const navbar = document.getElementById('navbar');
+            burger.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+
+    </script>
+
+
+    <footer>
+       
+        <div>
+        <script>
+             document.write("This page was last modified on: " + document.lastModified);
+         </script>
+        </div>
+   
+    </footer>
+
+        
+    <script>
+    window.onload = function() {
+        alert("Welcome In My Website!");
+    };
+    </script>
+
+    
+
+    </body>
+</html>
+
 
 </body>
-</html>
+
+
+
+</html> 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Abdulmalik Website</title>
+    
+</head>
+
+<body>
+<header>
+
+   
+
+
+        <a class="logo">Abdulmalik Alhindi</a>
+        <nav id="navbar">
+            <a href="index.html" >Home</a>
+            <a href="skills.html" class="active" >Skills</a>
+            <a href="Project.pdf">Portfolio</a>
+            <a href="mailto:s443010360@uqu.edu.sa">Contact</a>
+        </nav>
+        
+        <div class="burger" id="burger">
+
+            <i class="fa fa-bars"></i>
+
+        </div>
+
+
+   
+
+
+</header>
+    <section class="home">
+        <div class="home-img">
+            <img src="des.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Graphic <span>Design</span></h1>
+            
+            <p>As a passionate graphic designer, I specialize in crafting visually engaging designs that effectively communicate ideas and messages. My work blends creativity with technical expertise to deliver innovative solutions tailored to clients' needs, ensuring a unique and impactful visual experience. </p>
+            
+        </div>
+    </section>
+
+    <section class="home sec-home" >
+        <div class="home-img">
+            <img src="pho.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Photo<span>grapher</span></h1>
+            
+            <p>As a dedicated photographer, I capture moments that tell stories and evoke emotion. Through a keen eye for detail and a passion for creativity, I produce stunning visual narratives that highlight the beauty and essence of each subject, whether it's in portrait, landscape, or event photography. </p>
+            
+        </div> 
+
+    </section>
+
+    <script>
+        const burger = document.getElementById('burger');
+        const navbar = document.getElementById('navbar');
+
+        burger.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+        });
+    </script>
+
+
+    <footer>
+       
+        <div>
+        <script>
+             document.write("This page was last modified on: " + document.lastModified);
+         </script>
+        </div>
+   
+    </footer>
+
+    
+</body>
+</html>
+
+
+
+
+
